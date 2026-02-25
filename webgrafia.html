@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pràctica 4.7 - Documentació i Webgrafia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(120deg, #e3f2fd 0%, #f8bbd0 100%);
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+            padding: 40px 36px 32px 36px;
+        }
+        h1, h2, h3 {
+            color: #1a237e;
+            margin-top: 1.5em;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+        }
+        h2 {
+            border-bottom: 2px solid #90caf9;
+            padding-bottom: 0.2em;
+            margin-bottom: 1em;
+        }
+        h3 {
+            color: #3949ab;
+            margin-top: 1.2em;
+        }
+        ul, ol {
+            margin-left: 1.5em;
+        }
+        .highlight {
+            background: #e3f2fd;
+            border-left: 4px solid #1976d2;
+            padding: 0.7em 1em;
+            margin: 1em 0;
+            border-radius: 6px;
+        }
+        .example {
+            background: #fffde7;
+            border-left: 4px solid #fbc02d;
+            padding: 0.7em 1em;
+            margin: 1em 0;
+            border-radius: 6px;
+        }
+        .webgrafia {
+            background: #f3e5f5;
+            border-left: 4px solid #8e24aa;
+            padding: 0.7em 1em;
+            margin: 1em 0;
+            border-radius: 6px;
+        }
+        .section {
+            margin-bottom: 2.5em;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+        }
+        .table th, .table td {
+            border: 1px solid #bdbdbd;
+            padding: 0.6em 1em;
+            text-align: left;
+        }
+        .table th {
+            background: #bbdefb;
+        }
+        .caption {
+            font-size: 0.95em;
+            color: #666;
+            margin-top: 0.2em;
+        }
+        .footer {
+            text-align: center;
+            color: #888;
+            margin-top: 3em;
+            font-size: 0.95em;
+        }
+        .toc {
+            background: #e1f5fe;
+            border-radius: 8px;
+            padding: 1em 1.5em;
+            margin-bottom: 2em;
+        }
+        .toc ul {
+            margin: 0;
+            padding-left: 1.2em;
+        }
+        .toc a {
+            color: #1976d2;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f5f5f5;
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 0.98em;
+        }
+        @media (max-width: 700px) {
+            .container { padding: 16px 4vw; }
+            h1 { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pràctica 4.7 — Documentació i Webgrafia</h1>
+        <div class="highlight" style="text-align:center;">
+            <strong>Nom complet:</strong> [El teu nom aquí]<br>
+            <strong>Mòdul:</strong> [Nom del mòdul]<br>
+            <strong>Data:</strong> 25 de febrer del 2026
+        </div>
+        <div class="toc">
+            <h2>Índex</h2>
+            <ul>
+                <li><a href="#introduccio">Introducció</a></li>
+                <li><a href="#desenvolupament">Desenvolupament del cas</a></li>
+                <li><a href="#validacio">Validació i diagnòstic</a></li>
+                <li><a href="#conclusions">Conclusions tècniques</a></li>
+                <li><a href="#webgrafia">Webgrafia</a></li>
+            </ul>
+        </div>
+        <div class="section" id="introduccio">
+            <h2>Introducció</h2>
+            <p>L'objectiu d'aquest treball és demostrar la capacitat per identificar una placa base i un processador concrets, localitzar i utilitzar el manual oficial del fabricant, i extreure la informació important per al muntatge, post-muntatge i validació. En aquest cas, el número de PC és senar, per tant, es treballa amb la placa base <b>ASUS PRIME B660-PLUS D4</b> i el processador <b>Intel Core i5-12400F</b>.</p>
+        </div>
+        <div class="section" id="desenvolupament">
+            <h2>Desenvolupament del cas</h2>
+            <h3>Localització del manual</h3>
+            <ul>
+                <li>Captura de la pàgina de producte ASUS (veure manual oficial a la web).</li>
+                <li>Captura de la secció “Manual / Support” on es pot descarregar la documentació.</li>
+            </ul>
+            <div class="caption">Exemple: Figura 1 – Pàgina producte ASUS</div>
+            <h3>Socket i instal·lació del processador</h3>
+            <ul>
+                <li>Captura de la pàgina del manual amb el dibuix del socket i la posició de la CPU.</li>
+                <li><b>Tipus de socket:</b> LGA1700 (compatible amb Intel Core 12a generació).</li>
+                <li><b>Orientació:</b> El triangle del processador ha d'estar alineat amb el triangle de la placa base.</li>
+            </ul>
+            <div class="example">Justificant amb captures del manual i número de pàgina sota la captura.</div>
+            <h3>Slots de RAM i configuració òptima</h3>
+            <ul>
+                <li>Captura del diagrama dels slots de memòria.</li>
+                <li>Amb 2 mòduls de RAM, s'han de posar als slots <b>DIMM B2</b> i <b>DIMM A2</b> per dual channel.</li>
+                <li>Si es posen als slots equivocats, el rendiment baixa (canal únic, més latència, menys efectiu).</li>
+            </ul>
+            <h3>Connexions de ventiladors i CPU_FAN</h3>
+            <ul>
+                <li>Localització del connector <b>CPU_FAN</b> i <b>CHA_FAN</b> al manual.</li>
+                <li>El ventilador del dissipador de la CPU s'ha de connectar a <b>CPU_FAN</b>.</li>
+                <li>Si es connecta incorrectament, el ventilador pot no funcionar i el sistema pot no detectar-lo.</li>
+            </ul>
+            <h3>Procediment resumit de muntatge</h3>
+            <ol>
+                <li>Obrir i preparar la placa base.</li>
+                <li>Instal·lar la CPU.</li>
+                <li>Aplicar pasta tèrmica.</li>
+                <li>Instal·lar el dissipador.</li>
+                <li>Connectar el ventilador del dissipador a <b>CPU_FAN</b>.</li>
+                <li>Instal·lar la RAM.</li>
+                <li>Connectar fonts d’alimentació.</li>
+                <li>Connectar cables i verificar.</li>
+                <li>Verificar el funcionament.</li>
+            </ol>
+        </div>
+        <div class="section" id="validacio">
+            <h2>Validació i diagnòstic</h2>
+            <h3>5.1 Validació inicial després del muntatge</h3>
+            <ul>
+                <li>Captura del manual amb LEDs de diagnòstic (Q-LED, Debug LED o equivalent).</li>
+                <li>Taula de codis o indicadors (pàgina 8).</li>
+            </ul>
+            <div class="highlight">
+                <b>Què és el POST?</b> Procés d'autotest de la placa base en encendre el sistema. Verifica CPU, RAM, etc.<br>
+                <b>Si tot és correcte:</b> Es veu la pantalla de la BIOS.<br>
+                <b>Indicadors físics:</b> LEDs de diagnòstic: CPU, DRAM, BOOT.<br>
+                <b>LED DRAM encès:</b> Problema amb la RAM.
+            </div>
+            <h3>5.2 Accés i comprovació a la BIOS</h3>
+            <ul>
+                <li>Captura de la tecla d’accés a BIOS (F2 o Del).</li>
+                <li>Captura de la pantalla principal del BIOS (si surt al manual).</li>
+            </ul>
+            <div class="highlight">
+                <b>Secció Main/Informació del sistema:</b> Per comprovar CPU i RAM.<br>
+                <b>Si la RAM apareix a 2133 MHz en lloc de 3200 MHz:</b> Pot ser per configuració, compatibilitat o BIOS no actualitzada.
+            </div>
+            <h3>5.3 Activació del perfil XMP</h3>
+            <ul>
+                <li>Captura de la secció del manual amb configuració de memòria (pàgina 6).</li>
+            </ul>
+            <div class="highlight">
+                <b>On es configura:</b> BIOS, secció Advanced > Memory Settings.<br>
+                <b>Importància:</b> Permet que la RAM funcioni a la seva velocitat nominal.<br>
+                <b>Si no s’activa:</b> Menys rendiment.<br>
+                <b>Estabilitat:</b> Pot afectar si la RAM no funciona a la seva velocitat òptima.
+            </div>
+            <h3>5.4 Benchmark teòric i rendiment esperat</h3>
+            <ul>
+                <li>Captura de la web oficial del processador i del manual de la placa.</li>
+                <li>Freqüència base, turbo i velocitat màxima de memòria suportada.</li>
+            </ul>
+            <div class="example">
+                <b>Freqüència base:</b> 2.5 GHz<br>
+                <b>Freqüència turbo:</b> 4.4 GHz<br>
+                <b>RAM suportada:</b> DDR4 3200 MHz<br>
+                <b>Fonts:</b> <a href="https://www.intel.com/content/www/us/en/products/sku/134594/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html" target="_blank">Intel</a>, <a href="https://www.asus.com/supportonly/prime%20b660-plus%20d4/helpdesk_manual/" target="_blank">ASUS</a>
+            </div>
+            <h3>5.5 Diagnòstic tècnic basat en el manual</h3>
+            <div class="highlight">
+                <b>CAS 1:</b> LED de CPU encès.<br>
+                <b>Procediment:</b>
+                <ol>
+                    <li>Verificar connexió de la CPU (p.12).</li>
+                    <li>Comprovar connector CPU_FAN (p.29).</li>
+                    <li>Revisar compatibilitat CPU (p.1).</li>
+                    <li>Inspecció visual placa base (p.8).</li>
+                    <li>Comprovar memòries RAM (p.16).</li>
+                    <li>Reset de la BIOS (p.32).</li>
+                </ol>
+                <b>CAS 2:</b> El sistema s’apaga als 20–30 segons.<br>
+                <b>Procediment:</b>
+                <ol>
+                    <li>Comprovar connexions del ventilador CPU.</li>
+                    <li>Verificar instal·lació de la CPU.</li>
+                    <li>Aplicar pasta tèrmica.</li>
+                    <li>Revisar sistema de refrigeració.</li>
+                    <li>Inspeccionar alimentació i connectors.</li>
+                    <li>Test de temperatura amb el BIOS.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="section" id="conclusions">
+            <h2>Conclusions tècniques</h2>
+            <ol>
+                <li><b>Resum del procés:</b> Planificació, muntatge, post-muntatge, validació i documentació.</li>
+                <li><b>Diagnòstic i validació:</b> Problemes trobats: connexions de ventilador, pasta tèrmica, temperatures. Solucions: revisió i comprovació segons manual.</li>
+                <li><b>Aprenentatges i millores:</b> Bones pràctiques de muntatge i validació, documentació detallada, assegurar refrigeració i protecció contra sobreescalfament.</li>
+            </ol>
+        </div>
+        <div class="section webgrafia" id="webgrafia">
+            <h2>Webgrafia</h2>
+            <ul>
+                <li><b>Manual oficial placa base ASUS PRIME B660-PLUS D4:</b><br>
+                    <a href="https://www.asus.com/supportonly/prime%20b660-plus%20d4/helpdesk_manual/" target="_blank">https://www.asus.com/supportonly/prime%20b660-plus%20d4/helpdesk_manual/</a>
+                </li>
+                <li><b>Manual oficial processador Intel Core i5-12400F:</b><br>
+                    <a href="https://www.intel.com/content/www/us/en/products/sku/134594/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html" target="_blank">https://www.intel.com/content/www/us/en/products/sku/134594/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html</a>
+                </li>
+                <li><b>Pàgina oficial producte ASUS PRIME B660-PLUS D4:</b><br>
+                    <a href="https://www.asus.com/Motherboards-Components/Motherboards/PRIME/PRIME-B660-PLUS-D4/" target="_blank">https://www.asus.com/Motherboards-Components/Motherboards/PRIME/PRIME-B660-PLUS-D4/</a>
+                </li>
+                <li><b>Pàgina oficial producte Intel Core i5-12400F:</b><br>
+                    <a href="https://www.intel.com/content/www/us/en/products/sku/134594/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz.html" target="_blank">https://www.intel.com/content/www/us/en/products/sku/134594/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz.html</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            Document creat per a la pràctica 4.7. Pots incloure aquest fitxer al teu repositori de GitHub.<br>
+            &copy; 2026 [El teu nom aquí]
+        </div>
+    </div>
+</body>
+</html>
